@@ -1,0 +1,176 @@
+{
+  "brand_identity": {
+    "name": "HTY REALTY",
+    "archetype": "Jewel & Luxury",
+    "emotional_tone": "Sophisticated, Trustworthy, Timeless, Immersive",
+    "mission": "To craft living spaces that blend heritage luxury with modern sustainability.",
+    "inspiration": "Oberoi Realty, Aman Resorts, Architectural Digest"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Playfair Display, serif",
+      "weights": ["400", "600", "700"],
+      "usage": "Main headlines, section titles, impact statements",
+      "letter_spacing": "tracking-tight"
+    },
+    "body": {
+      "font_family": "Manrope, sans-serif",
+      "weights": ["300", "400", "500"],
+      "usage": "Paragraphs, UI elements, navigation, data",
+      "letter_spacing": "tracking-normal"
+    },
+    "accent": {
+      "font_family": "Cormorant Garamond, serif",
+      "weights": ["400", "500"],
+      "usage": "Quotes, testimonials, 'The Story' excerpts",
+      "style": "italic"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "name": "Midnight Slate",
+        "hex": "#0F172A",
+        "tailwind": "bg-slate-900",
+        "usage": "Footer, Luxury Section Backgrounds, Primary Text in Light Mode"
+      },
+      "secondary": {
+        "name": "Warm Sand",
+        "hex": "#F5F5F4",
+        "tailwind": "bg-stone-100",
+        "usage": "General Backgrounds, Cards (Light Mode)"
+      },
+      "accent": {
+        "name": "Burnished Gold",
+        "hex": "#D4AF37",
+        "tailwind": "text-yellow-600",
+        "usage": "CTAs, Borders, Highlights, Icons"
+      },
+      "neutral": {
+        "name": "Stone Grey",
+        "hex": "#78716C",
+        "tailwind": "text-stone-500",
+        "usage": "Secondary Text, Borders"
+      },
+      "success": {
+        "name": "Emerald",
+        "hex": "#059669",
+        "tailwind": "text-emerald-600",
+        "usage": "Sustainability Indicators, Success States"
+      }
+    },
+    "gradients": {
+      "luxury_overlay": "linear-gradient(180deg, rgba(15, 23, 42, 0) 0%, rgba(15, 23, 42, 0.8) 100%)",
+      "gold_shimmer": "linear-gradient(45deg, #D4AF37 0%, #FCD34D 50%, #D4AF37 100%)"
+    }
+  },
+  "layout_strategies": {
+    "grid_system": {
+      "marketing": "Mode A: The Tetris Grid (Asymmetrical, Artistic)",
+      "dashboard": "Mode B: High Density Grid (Functional, Dense)",
+      "listing": "Masonry Layout for Project Galleries"
+    },
+    "spacing": {
+      "scale": "Generous (2x standard)",
+      "section_padding": "py-24 md:py-32",
+      "container_padding": "px-6 md:px-12 lg:px-24"
+    },
+    "containers": {
+      "max_width": "max-w-7xl mx-auto",
+      "glass_morphism": "backdrop-blur-xl bg-white/70 border border-white/20 shadow-sm"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-slate-900 text-white hover:bg-slate-800 rounded-none px-8 py-6 uppercase tracking-widest text-xs font-bold transition-all duration-300",
+      "secondary": "border border-slate-900 text-slate-900 hover:bg-slate-50 rounded-none px-8 py-6 uppercase tracking-widest text-xs font-bold",
+      "ghost": "text-slate-900 hover:text-yellow-600 underline-offset-4 hover:underline uppercase tracking-widest text-xs"
+    },
+    "cards": {
+      "project_card": "group relative overflow-hidden rounded-none border-0 bg-stone-50 shadow-none hover:shadow-2xl transition-all duration-500",
+      "feature_card": "p-8 border border-stone-200 bg-white hover:border-yellow-600/50 transition-colors duration-300"
+    },
+    "inputs": {
+      "style": "rounded-none border-stone-200 bg-transparent focus:ring-0 focus:border-slate-900 transition-colors h-12"
+    }
+  },
+  "visual_enhancers": {
+    "textures": "Subtle noise overlay (opacity 0.03) on all solid backgrounds to prevent digital flatness.",
+    "motion": {
+      "scroll": "Lenis smooth scrolling (MANDATORY)",
+      "reveal": "Framer Motion: 'whileInView' with staggered fade-up (y: 20, opacity: 0)",
+      "hover": "Image scale (1.05) on hover, Text color shift"
+    },
+    "decorations": {
+      "lines": "1px solid lines in #E7E5E4 to create architectural grids",
+      "typography": "Huge watermark text (opacity 0.05) behind sections"
+    }
+  },
+  "image_urls": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1632312384657-68bda3b30cd1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjBhcGFydG1lbnQlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlJTIwbXVtYmFpfGVufDB8fHx8MTc3MDcyMzAzOHww&ixlib=rb-4.1.0&q=85",
+        "description": "Modern luxury apartment exterior, low angle, imposing",
+        "category": "hero_slider"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1716396676244-98917bb7b971?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwxfHxtdW1iYWklMjBza3lsaW5lJTIwc3Vuc2V0JTIwc2VhJTIwbGlua3xlbnwwfHx8fDE3NzA3MjMwNDV8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Mumbai skyline at sunset, emotional connection",
+        "category": "hero_slider"
+      }
+    ],
+    "interiors": [
+      {
+        "url": "https://images.unsplash.com/photo-1653652445848-ddc5a1c6472c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3IlMjBkZXNpZ24lMjBiZWlnZSUyMGdvbGQlMjBzb3BoaXN0aWNhdGVkfGVufDB8fHx8MTc3MDcyMzA0MXww&ixlib=rb-4.1.0&q=85",
+        "description": "Elegant living room with mirror, beige tones",
+        "category": "project_detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1601002257790-ebe0966a85ae?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3IlMjBkZXNpZ24lMjBiZWlnZSUyMGdvbGQlMjBzb3BoaXN0aWNhdGVkfGVufDB8fHx8MTc3MDcyMzA0MXww&ixlib=rb-4.1.0&q=85",
+        "description": "Pop of color, yellow sofa, modern luxury",
+        "category": "design_studio"
+      }
+    ],
+    "context": [
+      {
+        "url": "https://images.unsplash.com/photo-1748334118502-965c94e2cac3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBtb2Rlcm4lMjBhcGFydG1lbnQlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlJTIwbXVtYmFpfGVufDB8fHx8MTc3MDcyMzAzOHww&ixlib=rb-4.1.0&q=85",
+        "description": "Horniman Circle, heritage vibe",
+        "category": "about_us"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1717310642410-7b1de38a0d2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBtb2Rlcm4lMjBhcGFydG1lbnQlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlJTIwbXVtYmFpfGVufDB8fHx8MTc3MDcyMzAzOHww&ixlib=rb-4.1.0&q=85",
+        "description": "Taj Mahal Palace, iconic luxury symbol",
+        "category": "location_context"
+      }
+    ]
+  },
+  "instructions_to_main_agent": {
+    "general": "You are building a premium real estate platform. Do not use standard 'SaaS' layouts. Think 'Architectural Digest' meets 'Tech'. Use the provided image URLs strictly. Do not use placeholders.",
+    "theme_logic": "Use Light Theme (Warm Sand) for the majority of the site to evoke space and airiness. Use Dark Theme (Midnight Slate) ONLY for the Footer, the 'Luxury Collection' section, and the 'Cinema/Video' section.",
+    "navigation": "Sticky header with glassmorphism. Logo on left, minimal links center, 'Enquire Now' gold button right.",
+    "footer": "Massive footer (py-32). Dark background. Big typography for 'HTY REALTY'. Grid layout for links.",
+    "animations": "Implement 'Lenis' for smooth scrolling immediately. Use 'Framer Motion' for all entrance animations. No static elements.",
+    "forms": "Use Shadcn Form components but style them with 'border-b only' (underline style) for a cleaner, more architectural look in the Contact section.",
+    "admin_panel": "For the Admin Panel, switch to 'Mode B: High Density Grid'. Keep it clean, white background, sharp borders. Use Recharts for analytics."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: `transition: all`. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add `.App { text-align: center; }` in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯📚🎭🎬🎪🎉🎊🎁🎀🎂🍰🎈🎨🎰💰💵💳🏦💎🪙💸🤑📊📈📉💹🔢🏆🥇 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "Create new components that match the style and conventions of existing components when needed",
+    "Examine existing components to understand the project's component patterns before creating new ones",
+    "Components MUST use named exports (export const ComponentName = ...)",
+    "Pages MUST use default exports (export default function PageName() {...})",
+    "Use `sonner` for toasts. Sonner component are located in `/app/src/components/ui/sonner.tsx`"
+  ]
+}
