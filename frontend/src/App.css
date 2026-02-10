@@ -1,34 +1,140 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Main App Styles */
+
+.App {
+  min-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+/* Button styles */
+.btn-primary {
+  background-color: #0F172A;
+  color: white;
+  padding: 1.5rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.btn-primary:hover {
+  background-color: #1e293b;
 }
 
-.App-link {
-    color: #61dafb;
+.btn-secondary {
+  border: 1px solid #0F172A;
+  color: #0F172A;
+  background: transparent;
+  padding: 1.5rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.btn-secondary:hover {
+  background-color: #F5F5F4;
+}
+
+.btn-ghost {
+  color: #0F172A;
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.btn-ghost:hover {
+  color: #D4AF37;
+}
+
+/* Project card styles */
+.project-card {
+  position: relative;
+  overflow: hidden;
+  background: #F5F5F4;
+  border: 0;
+  transition: all 0.5s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.project-card img {
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Feature card styles */
+.feature-card {
+  padding: 2rem;
+  border: 1px solid #E7E5E4;
+  background: white;
+  transition: border-color 0.3s ease;
+}
+
+.feature-card:hover {
+  border-color: rgba(212, 175, 55, 0.5);
+}
+
+/* Input styles */
+input, textarea, select {
+  border: 1px solid #E7E5E4;
+  background: transparent;
+  height: 3rem;
+  padding: 0 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #0F172A;
+  ring: 0;
+}
+
+textarea {
+  height: auto;
+  min-height: 8rem;
+  padding: 1rem;
+}
+
+/* Typography watermark */
+.section-watermark {
+  position: absolute;
+  font-size: 12rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.05);
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+/* Image loading optimization */
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Architectural grid lines */
+.grid-line-v {
+  width: 1px;
+  background-color: #E7E5E4;
+  height: 100%;
+}
+
+.grid-line-h {
+  height: 1px;
+  background-color: #E7E5E4;
+  width: 100%;
 }
